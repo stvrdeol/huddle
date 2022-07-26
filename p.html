@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .flex{
+            display: flex;
+            border: 2px solid red;
+            background-color: aqua;
+            width: 30vw;
+        }
+        .img{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+        .icon{
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="img">
+            <img src="images/icon-location.svg" alt="icon-location" class="icon">
+            <img src="images/icon-phone.svg" alt="icon-phone" class="icon">
+            <img src="images/icon-email.svg" alt="icon-email" class="icon">
+        </div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua</p>
+            <p>+1-543-123-4567</p>
+            <p>example@huddle.com</p>
+        </div>
+    </div>
+</body>
+</html>
